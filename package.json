@@ -1,6 +1,6 @@
 {
     "name": "webpack-devserver",
-  "version": "0.0.1",
+    "version": "0.0.1",
     "author": "Isvara Woo",
     "description": "Serves a webpack app. Updates the browser on changes.",
     "dependencies": {
@@ -17,7 +17,10 @@
         "url": "git://github.com/IsvaraWoo/webpack-devserver.git"
     },
     "homepage": "http://github.com/IsvaraWoo/webpack-devserver",
-    "main": "index",
+    "main": "index.js",
+    "engines": {
+        "node": "4.*"
+    },
     "bin": {
         "webpack-devserver": "./bin/webpack-devserver.js"
     },

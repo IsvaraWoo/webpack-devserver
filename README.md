@@ -70,7 +70,7 @@ devServer: {
         '/url/*': back-server
     }
 }
-
+```
 
 ## At last
 
