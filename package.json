@@ -1,6 +1,6 @@
 {
     "name": "webpack-devserver",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Isvara Woo",
     "description": "Serves a webpack app. Updates the browser on changes.",
     "dependencies": {
@@ -8,8 +8,7 @@
         "http-proxy-middleware": "^0.14.0",
         "webpack": "^1.13.0",
         "webpack-dev-middleware": "^1.6.0",
-        "webpack-hot-middleware": "^2.10.0",
-        "yargs": "^4.6.0"
+        "webpack-hot-middleware": "^2.10.0"
     },
     "license": "MIT",
     "repository": {

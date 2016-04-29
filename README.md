@@ -29,18 +29,23 @@ Next, config webpack.config.js to enable hot reloading, See [Webpack Hot Middlew
 
  3. Optional, set publicPath.
 
- Then, add a script into package.json.
+Then, add a script into package.json.
 
- ```js
- "scripts": {
-    "dev": "webpack-devserver"
-  }
- ```
+```js
+"scripts": {
+   "dev": "webpack-devserver"
+ }
+```
+
+That's all, no more configuration required.
 Now, run this command to start DevServer.
 
 ```sh
 npm run dev
 ```
+and browse "http://127.0.0.1:8080/".
+
+
 ## Troubleshooting
 
 ### The following modules couldn't be hot updated
@@ -53,7 +58,7 @@ to the top level file that initialized the application. See [garysieling blog](h
 ## Config
 
 ### Port and address of DevServer
-To indicate another port and address, add 
+DevServer default listen on localhost:8080, to indicate another port and address, add 
 ```js
 devServer: {
 	address: '111.111.111.111',
@@ -63,11 +68,11 @@ devServer: {
 into webpack.config.js.
 
 ### Proxy
-If want proxy some url to back-server, add
+If want proxy some url to server "http://222.222.222.222:3000/", add
 ```js
 devServer: {
 	proxy: {
-        '/url/*': back-server
+        '/url/*': 'http://222.222.222.222:3000/'
     }
 }
 ```
