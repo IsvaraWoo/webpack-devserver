@@ -1,6 +1,6 @@
 # Webpack DevServer
 
-`It is not [Webpack Dev Server](https://github.com/webpack/webpack-dev-server)`.
+## It is not [Webpack Dev Server](https://github.com/webpack/webpack-dev-server).
 
 When you develop with React/Redux, to use hot-reload ability that powered by webpack-hot-middleware, usually you need to write a simple express server to provide hot-patch service.
 Now, I packed it as a module.
