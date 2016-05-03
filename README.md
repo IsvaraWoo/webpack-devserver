@@ -76,6 +76,7 @@ devServer: {
     }
 }
 ```
+into webpack.config.js.
 
 ## At last
 
