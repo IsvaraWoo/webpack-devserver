@@ -4,7 +4,6 @@
   "author": "Isvara Woo",
   "description": "Serves a webpack app. Updates the browser on changes.",
   "dependencies": {
-    "connect-history-api-fallback": "^1.2.0",
     "express": "^4.13.3",
     "http-proxy-middleware": "^0.14.0",
     "webpack": "^1.13.0",
