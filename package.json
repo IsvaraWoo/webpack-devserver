@@ -1,6 +1,6 @@
 {
   "name": "webpack-devserver",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Isvara Woo",
   "description": "Serves a webpack app. Updates the browser on changes.",
   "dependencies": {
